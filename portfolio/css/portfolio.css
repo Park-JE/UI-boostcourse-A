@@ -1,0 +1,465 @@
+body {
+    margin: 0px;
+    font-family: '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+}
+header {
+    background-color: #000;
+    height: 120px;
+}
+header div {
+    width: 1000px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+header h1 {
+    line-height: 120px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0px;
+    display: inline;
+    vertical-align: middle;
+}
+section {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    float: left;
+    list-style: none;
+}
+
+.nav a {
+    display: inline-block;
+    border: 1px solid #d1d1d1;
+    width: 322px;
+    height: 33px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    line-height: 33px;
+    vertical-align: middle;
+}
+
+.nav a:hover {
+    border-color: #454545;
+    font-weight: bold;
+}
+
+#form_nav {
+    margin: 0 14px;
+}
+
+.clear {
+    clear: both;
+}
+
+section h2 {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+hr {
+    color: #454545;
+}
+
+article {
+    margin: 30px 0 0;
+    border: 1px solid #d1d1d1;
+}
+
+article h3 {    
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d1d1d1;
+    height: 46px;
+    padding: 0 15px;
+    margin: 0px;
+    vertical-align: middle;
+    line-height: 46px;
+}
+
+article .content {
+    padding: 30px;
+    font-size: 12px;
+    color: #000;
+    margin: 0px;
+}
+
+footer {
+    border-top: 1px solid #d1d1d1;
+    text-align: center;
+    font-size: 12px;
+    padding: 40px;
+}
+
+footer address{
+    color: #999;
+    font-style: normal;
+}
+
+footer p {
+    color: #000;
+}
+
+table caption {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+table{
+    background-color: #fbfbfb;
+    font-size: 12px;
+    color: #555;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    height: 30px;
+}
+
+#size, #size th, #size td{
+    border: 1px solid #e4e4e4;
+}
+
+#refund {
+    border-top: 2px solid #a5a5a5;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+#refund thead {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+#refund tfoot {
+    border-top: 1px solid #a5a5a5;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#refund td:nth-of-type(2), #refund td:nth-of-type(3), #refund td:nth-of-type(4) {
+    text-align: right;
+}
+
+form h4 {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 1px solid #e4e4e4;
+    background-color: #fbfbfb;
+    padding: 20px;
+    font-size: 12px;
+    color: #000;
+    vertical-align: middle;
+}
+
+form span {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form input, form textarea, form select {  
+    margin-bottom: 20px;
+}
+
+form input:not([type="checkbox"]):not([type="radio"]){
+    font-size: 12px;
+    color: #000;
+    border: 1px solid #e4e4e4;  
+    height: 30px;        
+    width: 100%;
+}
+
+form textarea {
+    font-size: 12px;
+    color: #000;
+    border: 1px solid #e4e4e4;   
+    width: 100%;
+}
+
+form select {
+    height: 30px;        
+    width: 32%;
+    font-size: 12px;
+    color: #000;
+    border: 1px solid #e4e4e4;
+}
+
+#birth {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#input_phone button {
+    border: 1px solid #08a600;
+    background-color: #4ec53d;
+    font-size: 12px;
+    color: #fff;
+    height: 32px;
+    width: 30%;
+}
+
+#input_phone input {
+    width: 68%;
+    margin-bottom:5px;
+}
+
+#input_phone {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#hobby {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hobby div{
+    align-items: center;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    border: 1px solid #08a600;
+    background-color: #4ec53d;
+    font-size: 16px;
+    color: #fff;
+    height: 40px;
+}
+
+#list h4 {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+#dictionary {
+    border: 1px solid #e4e4e4;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+#dictionary h5 {
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+#dictionary dt {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#dictionary dt span {
+    font-size: 12px;
+    color: #559bfa;
+    margin-left: 5px;
+}
+
+#dictionary dd {
+    font-size: 12px;
+    color: #000;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+#rank {
+    border: 1px solid #e4e4e4;
+    padding: 20px;   
+    font-size: 12px;
+    color: #000; 
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+#rank ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#rank span {
+    border: 1px solid #e0e0e0;
+    font-size: 10px;
+    color: #666;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    text-align: center;
+    line-height: 17px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#rank li {
+    margin: 10px 0;
+}
+
+#rank a {
+    text-decoration: none;
+}
+
+#rank a:visited {
+    color: #000;
+}
+
+#rank a:hover {
+    text-decoration: underline;
+}
+
+#cookie {
+    border: 1px solid #e4e4e4;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+#cookie li:first-child{
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}
+
+#cookie li:first-child span, #cookie a {
+    color: #559bfa;
+}
+
+#cookie li {
+    margin: 10px 0;
+}
+
+#cookie span {
+    color: #ec5336;
+}
+
+#news {
+    border: 1px solid #e4e4e4;
+    margin-bottom: 40px;
+}
+
+#news li:nth-child(2){
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+#news ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#news li {
+    padding: 20px;
+}
+
+#news img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+#news span {
+    font-size: 14px;
+    color: #00c;
+    font-weight: bold;
+}
+
+#news p {
+    font-size: 12px;
+    color: #000;
+    margin: 5px 0 0;
+    line-height: 150%;
+}
+
+.clear {
+    clear: both;
+}
+
+#webtoon {
+    border: 1px solid #e4e4e4;
+    padding: 20px 0;
+}
+
+#webtoon ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#webtoon li {
+    display: inline-block;
+    width: 285px;
+    font-size: 12px;
+    color: #000;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#webtoon a {
+    text-decoration: none;
+}
+
+#webtoon a:visited {
+    color: #000;
+}
+
+#webtoon a:hover {
+    text-decoration: underline;
+}
+
+#webtoon h5 {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.cuttoon {
+    border: 1px solid #71b036;
+    background-color: #80c83d;
+    font-size: 10px;
+    color: #fff;
+}
+
+.smarttoon {
+    border: 1px solid #df4e28;
+    background-color: #ec5336;
+    font-size: 10px;
+    color: #fff;
+}
+
+#webtoon span {
+    padding: 1px 3px;
+    margin-right: 5px;
+}
